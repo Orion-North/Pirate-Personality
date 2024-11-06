@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Would Ye Rather - Pirate Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include Chart.js CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Would Ye Rather?</h1>
+    <div id="game-container">
+        <div id="question-container">
+            <p id="progress">Question 1 of 10</p>
+            <p id="question"></p>
+            <div id="options">
+                <button id="optionA" class="option-button" onclick="chooseOption('A')">
+                    <i class="fas fa-anchor"></i> Option A
+                </button>
+                <button id="optionB" class="option-button" onclick="chooseOption('B')">
+                    <i class="fas fa-skull-crossbones"></i> Option B
+                </button>
+            </div>
+            <button id="next-button" onclick="nextQuestion()" disabled>Next Question</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2>Yer Pirate Role</h2>
+            <p id="result-description"></p>
+            <button id="restart-button" onclick="restartGame()">Play Again</button>
+        </div>
+    </div>
+    <!-- Your app's JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
