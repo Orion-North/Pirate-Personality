@@ -1,19 +1,4 @@
-// Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyD5wtsEPRUThmNY-EfovyEJCgggSqKtaA4",
-    authDomain: "wood-u-9af0c.firebaseapp.com",
-    databaseURL: "https://wood-u-9af0c-default-rtdb.firebaseio.com",
-    projectId: "wood-u-9af0c",
-    storageBucket: "wood-u-9af0c.firebasestorage.app",
-    messagingSenderId: "874613989843",
-    appId: "1:874613989843:web:dc23c8bd78a8c24ecc4f26"
-  };
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-const database = firebase.database();
-
-// Questions Array with IDs
+// Pirate-Themed Questions and Roles
 let questions = [
     {
         "text": "Would ye rather sail through a raging storm or navigate treacherous reefs?",
