@@ -7,5 +7,5 @@ Ahoy, matey! **"Would Ye Rather - Pirate Adventure"** is an interactive web game
 [Start Your Pirate Adventure Here!](https://orion-north.github.io/Pirate-Personality/)
 
 ## Screenshot
-(![image]https://github.com/user-attachments/assets/163ad2af-5478-40a4-8184-340775bbfc9d)
+https://github.com/user-attachments/assets/163ad2af-5478-40a4-8184-340775bbfc9d
 
